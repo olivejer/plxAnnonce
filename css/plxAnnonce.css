@@ -1,0 +1,75 @@
+#annonceblackbg{
+margin:0px;
+background-color: #000; 
+z-index: 10; 
+filter:alpha(opacity=60);
+opacity : 0.6; 
+width:100%;
+height:100%; 
+position: fixed; left: 0; top: 0;
+}
+
+#cadreannonce{
+text-align:center;
+font-family: Arial,sans-serif;
+font-size: 1em;
+border : solid 3px red;
+padding: 10px;
+background:white ;
+position : absolute;
+margin-top:15%;
+left: 50%;
+width: 600px;
+margin-left: -300px;
+z-index: 9999; 
+-moz-border-radius: 15px;
+border-radius: 15px;
+}
+
+#cadreannonce p{
+color :black;
+}
+
+a.annoncebutton,a.annoncebutton:link,a.annonce:visited{
+font-family: Arial,sans-serif;
+font-size: 1em;
+color: white;
+margin-left:auto;
+margin-right:auto;
+display:block;
+text-decoration : none;
+text-align : center;
+border : solid 1px black;
+-moz-border-radius: 5px;
+border-radius: 5px;
+width:170px;
+padding:4px;
+background: #444;
+background: -webkit-linear-gradient( #555, #2C2C2C);
+background:    -moz-linear-gradient( #555, #2C2C2C);
+background:     -ms-linear-gradient( #555, #2C2C2C);
+background:      -o-linear-gradient( #555, #2C2C2C);
+background:         linear-gradient( #555, #2C2C2C);
+box-shadow: 0 0 5px rgba( 0, 0, 0, 0.5),
+ 0 -1px 0 rgba( 255, 255, 255, 0.4);
+}
+
+a.annoncebutton:hover{
+    color: #222;
+    background: #555;
+    background: -webkit-linear-gradient( #777, #333);
+    background:    -moz-linear-gradient( #777, #333);
+    background:     -ms-linear-gradient( #777, #333);
+    background:      -o-linear-gradient( #777, #333);
+    background:         linear-gradient( #777, #333);
+}
+
+
+#close{
+float:right;
+
+}
+#close img{
+height:30px;
+width:30px;
+}
